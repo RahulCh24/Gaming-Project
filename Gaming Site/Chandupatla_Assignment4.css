@@ -1,0 +1,415 @@
+body{
+    
+    background-color: black;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+
+.parent{
+    display: flex;
+    width: 80%;
+  }
+  
+.child{
+    flex: 1;
+    margin: 20px;
+  }
+  .child:first-child{
+    margin-right: 20px;
+  }
+  .child_2{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 60px;
+  }
+.main{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1550px;
+}
+.parent_2{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.child2_2{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 300px;
+}
+
+tr td:first-child{
+  padding-right: 20px;
+}
+tr td{
+  padding-top:10px ;
+}
+.navT{
+  margin-top: 40px;
+  width: 100%;
+}
+.navC{
+  width: 20%;
+  color: white;
+}
+a{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(197, 56, 56);
+}
+.contact{
+  width: 90%;
+  text-align: center;
+}
+.logo{
+  width: 80%;
+}
+.logo_container{
+  text-align: center;
+}
+p{
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}
+.navT{
+  font-size: 30px;
+}
+
+.cover{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+}
+.form{
+    width: 400px;
+    height: 580px;
+    position: relative;
+    margin: 6% auto;
+    background-color: white;
+    padding: 5px;
+}
+.menu{
+  border: 2px;
+  border-color: white;
+}
+.toggle{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+.social{
+    margin: 30px auto;
+    text-align: center;
+}
+.social img{
+    width: 30px;
+    margin: 0 12px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.login_input_group{
+top: 180px;
+position: absolute;
+width: 400px;
+transition: .5s;
+}
+.input_field{
+    width: 100%;
+    padding:10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+}
+.login_submit_btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: linear-gradient( to right, #ff105f, #ffad06) ;
+    position: relative;
+    border-radius: 50px;
+}
+.login_reset_btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: linear-gradient( to right, #ff105f, #ffad06) ;
+    position: relative;
+    border-radius: 50px;
+}
+.submit_button{
+    width: 220px;
+    margin: 30px auto;
+    position: relative;
+}
+.logo{
+    width: 80%;
+}
+.logo_container{
+    text-align: center;
+    background-color: black;
+}
+.navT{
+    margin-top: 40px;
+    width: 100%;
+  }
+  .navC{
+    width: 20%;
+    color: white;
+  }
+  a{
+    color: aliceblue;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    color: rgb(197, 56, 56);
+  }
+  tr td:first-child{
+    padding-right: 20px;
+  }
+  tr td{
+    padding-top:10px ;
+  }
+  body{
+    background-color: black;
+  }
+
+  .container{
+    width: 70%;
+    margin-left: 250px ;
+    color: white;
+}
+h2{
+  margin-left: 25px;
+}
+td{
+  padding-left: 100px;
+}
+.navT{
+  font-size: 30px;
+}
+p{
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}
+
+
+body{
+    background-color: black;
+    color: white;
+}
+.contact_container{
+    width: 80%;
+    margin: 50px auto;
+    color: white;
+}
+
+.contact-box{
+    display: flex;
+    color: white;
+    background-color: rgb(95, 74, 214);
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    background-color: rgb(68, 119, 10);
+    padding: 50px;
+}
+h1{
+    margin-bottom: 20px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.contact_input-group{
+    flex-basis: 45%;
+}
+.contact_input{
+    width: 100%;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #111;
+    outline: none;
+    padding:10px;
+}
+label{
+    margin-bottom: 5px;
+
+}
+button{
+    margin: 5px auto;
+    float: right;
+}
+.navT{
+    margin-top: 40px;
+    width: 100%;
+}
+.navC{
+    width: 20%;
+    color: white;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(197, 56, 56);
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin: 10px;
+}
+textarea{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.logo{
+    width: 80%;
+}
+.logo_container{
+    text-align: center;
+}
+.navT{
+    font-size: 30px;
+  }
+  p{
+    font-family: "Times New Roman", Times, serif;
+    font-size: large;
+  }
+.contact_submit_btn{
+    background: linear-gradient( to right, #ff105f, #ffad06) ;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.contact_submit_btn:hover{
+    background: linear-gradient( to right,#ffad06,#ff105f) ;
+}
+.body{
+    background-color: black;
+}
+.final_container{
+  display: flex;
+}
+.rahul{
+  padding-top: 50px;
+  height: 500px;
+}
+.final_container_child2{
+  margin: 5px;
+}
+.final_container_child1{
+  margin: 5px;
+}
+.final_heading1{
+  text-align: left;
+}
+.final_list{
+  font-size: large;
+}
+.final_reference{
+  font-size: 20px;
+
+}
+
+.footer{
+  width: 70%;
+  padding: 50px 10%;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+.footer div{
+  text-align: center;
+
+}
+
+.col-2{
+  flex-grow: 2;
+}
+
+.footer div h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.col-1 a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 10px;
+
+}
+
+.footer_form input{
+  width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  outline: none;
+  border: none;
+}
+
+.footer_form button{
+  background: transparent;
+  border: 2px solid;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 270px;
+}
+.footer_img{
+  height: 30px;
+  width: 30px;
+  margin: 2px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.privacy{
+    margin: 50px 250px;
+    background-color: #ffff;
+    color: black;
+    height: 600px;
+    overflow: scroll;
+    padding: 10px;
+}
+.privacy_form{
+  margin-left: 350px;
+}
+.privacy_button_group{
+  margin-right:480px ;
+}
+.privacy_button{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.privacy p{
+  padding: 0px 30px;
+}
